@@ -1,6 +1,6 @@
 export const siteContent = {
   heroRotator: {
-    image: "/src/assets/herorotatorimage.png",
+    image: "/images/herorotatorimage.png",
     headingLine1: "Experience the Difference of",
     headingLine2: "Proactive Wealth Management",
     subheading: "Tax-Efficient. Integrated. Built for the Long Term.",
@@ -22,7 +22,7 @@ export const siteContent = {
 Our focus is tax-efficient portfolio construction implemented within the context of your broader financial life. We coordinate closely with your CPA and estate attorney so that investment decisions reinforce tax strategy, liquidity planning, and long-term wealth transfer objectives.
 
 As your circumstances evolve, we adapt. Career changes, business growth, major purchases, and shifting family priorities are incorporated into portfolio design and capital allocation decisions. The objective is structured, coordinated decision-making across your entire financial life.`,
-        image: "/src/assets/1stpillar.jpg",
+        image: "/images/1stpillar.jpg",
       },
       {
         id: "investment",
@@ -35,7 +35,7 @@ During transitions, we focus on maintaining portfolio discipline while adjusting
 
 Our role is to provide continuity and oversight when complexity increases, ensuring that capital remains aligned with your evolving goals.
 .`,
-        image: "/src/assets/2ndpillar.jpg",
+        image: "/images/2ndpillar.jpg",
       },
       {
         id: "relationship",
@@ -48,7 +48,7 @@ We actively involve the next generation early through structured financial educa
 
 By building financial capability alongside financial capital, families strengthen continuity across generations. The objective is not only to transfer assets efficiently, but to transfer judgment, discipline, and confidence as well.
 `,
-        image: "/src/assets/3rdpillar.jpg",
+        image: "/images/3rdpillar.jpg",
       },
     ],
   },
@@ -70,7 +70,7 @@ By building financial capability alongside financial capital, families strengthe
         phone: "(555) 201-9401",
         email: "morgan@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
-        image: "/src/assets/hilal_profile.jpg",
+        image: "/images/hilal_profile.jpg",
       },
       {
         name: "Katerina Minevichk",
@@ -78,7 +78,7 @@ By building financial capability alongside financial capital, families strengthe
         phone: "(555) 201-9402",
         email: "daniel@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
-        image: "/src/assets/katerina_profile.jpg",
+        image: "/images/katerina_profile.jpg",
       },
     ],
   },
