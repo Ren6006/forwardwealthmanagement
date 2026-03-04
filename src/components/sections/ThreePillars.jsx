@@ -43,7 +43,9 @@ export default function ThreePillars() {
               <p className="mt-3 italic font-bold font-serif text-lg text-brandDark/80">
                 {activePillar.subtitle}
               </p>
-              <p className="mt-4 text-brandDark/80 leading-relaxed">{activePillar.description}</p>
+              <p className="mt-4 text-brandDark/80 leading-relaxed whitespace-pre-line">
+                {activePillar.description}
+              </p>
             </div>
           </article>
         </div>
@@ -54,7 +56,7 @@ export default function ThreePillars() {
               <img src={pillar.image} alt={pillar.title} className="w-full h-56 object-cover" />
               <h3 className="mt-4 text-2xl text-brandDark">{pillar.title}</h3>
               <p className="mt-2 italic font-bold font-serif text-brandDark/80">{pillar.subtitle}</p>
-              <p className="mt-3 text-brandDark/80">{pillar.description}</p>
+              <p className="mt-3 text-brandDark/80 whitespace-pre-line">{pillar.description}</p>
             </article>
           ))}
         </div>

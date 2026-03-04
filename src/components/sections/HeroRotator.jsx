@@ -17,9 +17,8 @@ export default function HeroRotator() {
       <div className="relative z-10 min-h-screen max-w-6xl mx-auto px-6 flex items-center justify-center md:justify-start">
         <div className="max-w-2xl text-white text-center md:text-left">
           <h1 className="text-5xl md:text-7xl leading-tight">
-            {heroRotator.headingLine1}
-            <br />
-            {heroRotator.headingLine2}
+            <span className="block whitespace-nowrap">{heroRotator.headingLine1}</span>
+            <span className="block whitespace-nowrap">{heroRotator.headingLine2}</span>
           </h1>
 
           <p className="mt-6 italic font-serif text-xl text-brandLight">

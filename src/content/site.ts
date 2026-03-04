@@ -1,12 +1,11 @@
 export const siteContent = {
   heroRotator: {
-    image:
-      "https://images.unsplash.com/photo-1444653389962-8149286c578a?auto=format&fit=crop&w=1800&q=80",
-    headingLine1: "Forward Thinking.",
-    headingLine2: "Lasting Wealth.",
-    subheading: "Strategic guidance for every stage of life.",
+    image: "/src/assets/herorotatorimage.png",
+    headingLine1: "Experience the Difference of",
+    headingLine2: "Proactive Wealth Management",
+    subheading: "Tax-Efficient. Integrated. Built for the Long Term.",
     paragraph:
-      "Forward Wealth Management delivers clear, personalized financial planning so you can make confident decisions today and build lasting security for tomorrow.",
+      "We design sophisticated, tax-aware strategies that integrate your investments, real estate decisions, career income, and generational planning into one coordinated system. Rather than managing accounts in isolation, we align every financial decision to improve efficiency, reduce fragmentation, and support your long-term objectives.",
     ctaLabel: "Let's Get Started",
     ctaTo: "/contact",
   },
@@ -14,31 +13,42 @@ export const siteContent = {
     heading: "Our Three Pillars",
     pillars: [
       {
-        id: "planning",
-        title: "Comprehensive Planning",
-        subtitle: "Intentional strategy, aligned to your goals.",
+        id: "tax-efficient-wealth-management",
+        title: "Tax-Efficient Wealth Management",
+        subtitle: "Designing Wealth as a Coordinated System",
         description:
-          "We develop a practical roadmap covering retirement, tax, and legacy priorities so every decision supports your long-term vision.",
-        image:
-          "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=80",
+          `We manage wealth as an integrated life-span strategy, not a collection of accounts. Investment portfolios, real estate decisions, career income, tax exposure, and long-term family goals are evaluated together to improve alignment and reduce inefficiency.
+
+Our focus is tax-efficient portfolio construction implemented within the context of your broader financial life. We coordinate closely with your CPA and estate attorney so that investment decisions reinforce tax strategy, liquidity planning, and long-term wealth transfer objectives.
+
+As your circumstances evolve, we adapt. Career changes, business growth, major purchases, and shifting family priorities are incorporated into portfolio design and capital allocation decisions. The objective is structured, coordinated decision-making across your entire financial life.`,
+        image: "/src/assets/1stpillar.jpg",
       },
       {
         id: "investment",
-        title: "Investment Management",
-        subtitle: "Disciplined portfolios for lasting growth.",
+        title: "Life Transitions",
+        subtitle: "Navigating Change with Structure and Discipline",
         description:
-          "Our investment approach balances risk and opportunity with evidence-based allocation, active oversight, and clear communication.",
-        image:
-          "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1000&q=80",
+          `Major life events create both risk and opportunity. Retirement, divorce, business sales, relocation, and sending children to college require deliberate financial recalibration.
+        
+During transitions, we focus on maintaining portfolio discipline while adjusting for new cash flow realities, tax implications, and long-term sustainability. We model scenarios, evaluate trade-offs, and structure decisions so that short-term changes do not undermine long-term strategy.
+
+Our role is to provide continuity and oversight when complexity increases, ensuring that capital remains aligned with your evolving goals.
+.`,
+        image: "/src/assets/2ndpillar.jpg",
       },
       {
         id: "relationship",
-        title: "Trusted Partnership",
-        subtitle: "Advice grounded in clarity and care.",
+        title: "Build It Forward",
+        subtitle: "Preparing the Next Generation for Stewardship",
         description:
-          "We stay connected through every life transition, helping you adapt plans with confidence while keeping your values at the center.",
-        image:
-          "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1000&q=80",
+          `Preserving wealth requires more than estate documents. It requires prepared heirs.
+
+We actively involve the next generation early through structured financial education, age-appropriate investment responsibility, and ongoing dialogue about capital stewardship. Children are not passive future beneficiaries; they are developing financial decision-makers.
+
+By building financial capability alongside financial capital, families strengthen continuity across generations. The objective is not only to transfer assets efficiently, but to transfer judgment, discipline, and confidence as well.
+`,
+        image: "/src/assets/3rdpillar.jpg",
       },
     ],
   },
@@ -55,22 +65,20 @@ export const siteContent = {
     heading: "Meet Our Team",
     members: [
       {
-        name: "Morgan Avery",
+        name: "Hilal Yilmaz",
         role: "Senior Wealth Advisor",
         phone: "(555) 201-9401",
         email: "morgan@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
-        image:
-          "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+        image: "/src/assets/hilal_profile.jpg",
       },
       {
-        name: "Daniel Brooks",
+        name: "Katerina Minevichk",
         role: "Retirement Planning Specialist",
         phone: "(555) 201-9402",
         email: "daniel@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
-        image:
-          "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
+        image: "/src/assets/katerina_profile.jpg",
       },
     ],
   },

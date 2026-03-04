@@ -24,11 +24,20 @@ export default function MeetOurTeam() {
               key={member.email}
               className="group border border-brandDark/10 p-6 transition-colors hover:bg-brandAccent"
             >
-              <img
-                src={member.image}
-                alt={member.name}
-                className="w-full aspect-square object-cover"
-              />
+              <div className="w-full aspect-[4/5] overflow-hidden">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className={`w-full h-full object-cover ${
+                    member.name === "Hilal Yilmaz" ? "object-[50%_25%]" : "object-top"
+                  }`}
+                  style={
+                    member.name === "Hilal Yilmaz"
+                      ? { transform: "scale(1.04)", transformOrigin: "top center" }
+                      : undefined
+                  }
+                />
+              </div>
               <h3 className="mt-5 text-2xl text-brandDark transition-colors group-hover:text-white">
                 {member.name}
               </h3>
