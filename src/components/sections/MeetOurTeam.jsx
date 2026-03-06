@@ -44,6 +44,9 @@ export default function MeetOurTeam() {
               <p className="mt-1 text-brandDark/70 transition-colors group-hover:text-white/95">
                 {member.role}
               </p>
+              <p className="mt-1 text-sm font-medium text-brandDark/80 transition-colors group-hover:text-white/95">
+                {member.credentials}
+              </p>
               <p className="mt-4 text-sm text-brandDark/80 transition-colors group-hover:text-white/95">
                 {member.phone}
               </p>

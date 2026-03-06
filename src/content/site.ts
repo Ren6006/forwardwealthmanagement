@@ -66,15 +66,17 @@ By building financial capability alongside financial capital, families strengthe
     members: [
       {
         name: "Hilal Yilmaz",
-        role: "Senior Wealth Advisor",
+        role: "Wealth Manager",
+        credentials: "PhD, CFA",
         phone: "(555) 201-9401",
         email: "morgan@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
         image: "/images/hilal_profile.jpg",
       },
       {
-        name: "Katerina Minevichk",
-        role: "Retirement Planning Specialist",
+        name: "Katerina Minevich",
+        role: "Wealth Manager",
+        credentials: "CFP, CDFA",
         phone: "(555) 201-9402",
         email: "daniel@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
