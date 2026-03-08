@@ -22,7 +22,7 @@ export default function ThreePillars() {
               onClick={() => setActive(pillar.id)}
               className={`w-full min-h-[48px] px-5 py-1.5 uppercase tracking-wide leading-snug text-sm border transition-colors flex items-center justify-center text-center ${
                 active === pillar.id
-                  ? "bg-brandAccent text-brandDark border-brandAccent"
+                  ? "bg-[#A9C0C8] text-black font-bold border-[#A9C0C8]"
                   : "bg-transparent text-brandDark border-brandDark/20 hover:border-brandAccent"
               }`}
             >

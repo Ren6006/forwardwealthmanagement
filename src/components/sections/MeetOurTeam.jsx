@@ -1,6 +1,7 @@
 import { siteContent } from "../../content/site.ts";
 import SectionHeading from "./SectionHeading";
 import useScrollReveal from "./useScrollReveal";
+import { useNavigate } from "react-router-dom";
 
 function LinkedInIcon() {
   return (
@@ -12,6 +13,7 @@ function LinkedInIcon() {
 
 export default function MeetOurTeam() {
   const sectionRef = useScrollReveal();
+  const navigate = useNavigate();
 
   return (
     <section ref={sectionRef} className="reveal py-20 md:py-24 bg-white">
@@ -22,7 +24,16 @@ export default function MeetOurTeam() {
           {siteContent.team.members.map((member) => (
             <article
               key={member.email}
-              className="group border border-brandDark/10 p-6 transition-colors hover:bg-brandAccent"
+              className="group border border-brandDark/10 p-6 transition-colors hover:bg-[#A9C0C8] cursor-pointer"
+              onClick={() => navigate(`/about#${member.id}`)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  navigate(`/about#${member.id}`);
+                }
+              }}
+              role="link"
+              tabIndex={0}
             >
               <div className="w-full aspect-[4/5] overflow-hidden">
                 <img
@@ -38,15 +49,16 @@ export default function MeetOurTeam() {
                   }
                 />
               </div>
-              <h3 className="mt-5 text-2xl text-brandDark transition-colors group-hover:text-white">
+              <h3 className="mt-5 text-2xl text-brandDark transition-colors group-hover:text-brandDark">
                 {member.name}
               </h3>
-              <p className="mt-1 text-brandDark/70 transition-colors group-hover:text-white/95">
+              <p className="mt-1 text-brandDark/70 transition-colors group-hover:text-brandDark/80">
                 {member.role}
               </p>
               <a
                 href={`mailto:${member.email}`}
-                className="mt-4 block text-sm text-brandDark/80 transition-colors group-hover:text-white/95"
+                className="mt-4 block text-sm text-brandDark/80 transition-colors group-hover:text-brandDark/90"
+                onClick={(event) => event.stopPropagation()}
               >
                 {member.email}
               </a>
@@ -55,7 +67,8 @@ export default function MeetOurTeam() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={`${member.name} LinkedIn`}
-                className="inline-flex mt-4 text-brandDark transition-colors group-hover:text-white"
+                className="inline-flex mt-4 text-brandDark transition-colors group-hover:text-brandDark"
+                onClick={(event) => event.stopPropagation()}
               >
                 <LinkedInIcon />
               </a>

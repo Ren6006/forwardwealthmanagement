@@ -48,7 +48,7 @@ export default function ContactPage() {
     <section className="py-16 md:py-20 bg-white">
       <div className="max-w-3xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl text-brandDark text-center">Contact</h1>
-        <div className="mt-4 h-[2px] w-20 mx-auto bg-brandAccent" />
+        <div className="mt-4 h-[2px] w-20 mx-auto bg-[#A9C0C8]" />
 
         <form onSubmit={onSubmit} className="mt-10 space-y-5">
           <div className="grid md:grid-cols-2 gap-5">

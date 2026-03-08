@@ -65,6 +65,7 @@ By building financial capability alongside financial capital, families strengthe
     heading: "Meet Our Team",
     members: [
       {
+        id: "katerina",
         name: "Katerina Minevich, CFP®, CDFA®",
         role: "Wealth Manager",
         email: "katerina@fwdwlth.com",
@@ -72,6 +73,7 @@ By building financial capability alongside financial capital, families strengthe
         image: "/images/katerina_profile.jpg",
       },
       {
+        id: "hilal",
         name: "Hilal Yilmaz, PhD, CFA",
         role: "Wealth Manager",
         email: "hilal@fwdwlth.com",
@@ -84,6 +86,7 @@ By building financial capability alongside financial capital, families strengthe
     heading: "About Us",
     bios: [
       {
+        id: "katerina",
         name: "Katerina Minevich, CFP®, CDFA®",
         image: "/images/katerina_profile.jpg",
         paragraphs: [
@@ -94,6 +97,7 @@ By building financial capability alongside financial capital, families strengthe
         ],
       },
       {
+        id: "hilal",
         name: "Hilal Yilmaz, PhD, CFA",
         image: "/images/hilal_profile.jpg",
         paragraphs: [
@@ -146,8 +150,6 @@ By building financial capability alongside financial capital, families strengthe
         image: "/images/serve5.jpg",
       },
     ],
-    ctaLabel: "Schedule a Conversation",
-    ctaTo: "/contact",
     closingTitle: "Bring calm, order, and control to complex financial lives.",
     closingCtaLabel: "Start Planning",
     closingCtaTo: "/contact",

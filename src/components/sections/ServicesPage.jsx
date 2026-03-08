@@ -32,7 +32,7 @@ export default function ServicesPage() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl text-brandDark">{services.heading}</h1>
-          <div className="mt-4 h-[2px] w-20 mx-auto bg-brandAccent" />
+          <div className="mt-4 h-[2px] w-20 mx-auto bg-[#A9C0C8]" />
         </div>
 
         <div className="mt-12 space-y-10">
@@ -62,15 +62,6 @@ export default function ServicesPage() {
               </article>
             );
           })}
-        </div>
-
-        <div className="mt-12 text-center">
-          <NavLink
-            to={services.ctaTo}
-            className="inline-flex border border-brandAccent bg-brandAccent px-7 py-3 uppercase tracking-wide text-sm text-brandDark transition-colors hover:bg-transparent hover:text-brandAccent"
-          >
-            {services.ctaLabel}
-          </NavLink>
         </div>
 
         <div className="mt-14 text-center bg-brandLight/30 py-12 px-6">

@@ -1,18 +1,36 @@
 import { siteContent } from "../../content/site.ts";
 import useScrollReveal from "./useScrollReveal";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function AboutPage() {
   const sectionRef = useScrollReveal();
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) return;
+
+    const id = hash.replace("#", "");
+    const target = document.getElementById(id);
+    if (!target) return;
+
+    const top = target.getBoundingClientRect().top + window.scrollY - 170;
+    window.scrollTo({ top, behavior: "smooth" });
+  }, [hash]);
 
   return (
     <section ref={sectionRef} className="reveal py-16 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl text-brandDark text-center">{siteContent.about.heading}</h1>
-        <div className="mt-4 h-[2px] w-20 mx-auto bg-brandAccent" />
+        <div className="mt-4 h-[2px] w-20 mx-auto bg-[#A9C0C8]" />
 
         <div className="mt-12 space-y-14">
           {siteContent.about.bios.map((bio) => (
-            <article key={bio.name} className="grid lg:grid-cols-[320px_1fr] gap-8 md:gap-10 items-start">
+            <article
+              id={bio.id}
+              key={bio.name}
+              className="grid lg:grid-cols-[320px_1fr] gap-8 md:gap-10 items-start scroll-mt-44"
+            >
               <img
                 src={bio.image}
                 alt={bio.name}

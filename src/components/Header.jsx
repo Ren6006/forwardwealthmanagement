@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import logoImage from "../assets/Attached_image.png";
 
 const base =
-  "uppercase tracking-widest text-sm text-brandDark border-b-2 border-transparent hover:border-brandAccent transition-colors";
+  "uppercase tracking-widest text-sm text-brandDark border-b-2 border-transparent hover:border-[#A9C0C8] transition-colors";
 
-const cls = ({ isActive }) => `${base} ${isActive ? "border-brandAccent" : ""}`;
+const cls = ({ isActive }) => `${base} ${isActive ? "border-[#A9C0C8]" : ""}`;
 
 export default function Header() {
   const [open, setOpen] = useState(false);
