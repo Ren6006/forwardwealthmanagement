@@ -81,7 +81,7 @@ By building financial capability alongside financial capital, families strengthe
     ],
   },
   about: {
-    heading: "About",
+    heading: "About Us",
     bios: [
       {
         name: "Katerina Minevich, CFP®, CDFA®",
@@ -106,6 +106,58 @@ By building financial capability alongside financial capital, families strengthe
         ],
       },
     ],
+  },
+  services: {
+    heading: "Who We Serve",
+    sections: [
+      {
+        title: "Multi-Generational Families Staying Connected",
+        lead: "Coordinated wealth strategies that honor your family's future:",
+        body:
+          "When wealth spans generations, every decision matters for your family's future. We help you preserve what you've built while empowering each generation to thrive. From coordinating with your estate and tax professionals to facilitating meaningful family conversations, we ensure your legacy reflects both your financial success and the values that matter most to your family.",
+        image: "/images/1stpillar.jpg",
+      },
+      {
+        title: "High-Income Professionals Navigating Complexity",
+        lead: "Comprehensive planning for your complex financial life:",
+        body:
+          "Your financial success creates valuable opportunities, from equity compensation and tax strategy to retirement timing and legacy planning. We provide a coordinated, white-glove approach so short-term decisions support long-term outcomes.",
+        image: "/images/2ndpillar.jpg",
+      },
+      {
+        title: "Business Owners Building Legacy",
+        lead: "From business success to generational impact:",
+        body:
+          "Entrepreneurs and business leaders who have built something meaningful deserve wealth strategies that honor that achievement. Whether you are preparing to sell your business or planning for succession, we help you transition from builder to steward.",
+        image: "/images/3rdpillar.jpg",
+      },
+      {
+        title: "Individuals and Families in Major Life Transitions",
+        lead: "Steady guidance through life's biggest moments:",
+        body:
+          "Divorce, inheritance, career changes, and loss of a spouse require clear financial structure. We provide calm guidance and expert coordination so you can make confident decisions and move forward with strength.",
+        image: "/images/herorotatorimage.png",
+      },
+      {
+        title: "Women Designing Their Financial Future",
+        lead: "Wealth strategies that work with your life:",
+        body:
+          "From career pivots to caring for multiple generations, there is no one-size-fits-all plan. We help align your wealth strategy with the life you are living and the future you want to create.",
+        image: "/images/1stpillar.jpg",
+      },
+      {
+        title: "Medical Professionals Using Wealth Effectively",
+        lead: "Understanding your financial complexity with strategic planning:",
+        body:
+          "Medical professionals face unique challenges, including debt management, practice compensation structures, and long-term tax planning. We help convert high earnings into durable, tax-aware wealth.",
+        image: "/images/2ndpillar.jpg",
+      },
+    ],
+    ctaLabel: "Schedule a Conversation",
+    ctaTo: "/contact",
+    closingTitle: "Bring calm, order, and control to complex financial lives.",
+    closingCtaLabel: "Start Planning",
+    closingCtaTo: "/contact",
   },
   professionalAffiliations: {
     heading: "Professional Affiliations",

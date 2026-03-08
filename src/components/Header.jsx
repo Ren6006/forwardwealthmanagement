@@ -21,7 +21,7 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-6">
             <NavLink to="/" className={cls}>Home</NavLink>
             <NavLink to="/about" className={cls}>About</NavLink>
-            <NavLink to="/services" className={cls}>Services</NavLink>
+            <NavLink to="/services" className={cls}>Who We Serve</NavLink>
             <NavLink to="/contact" className={cls}>Contact</NavLink>
           </nav>
 

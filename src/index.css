@@ -29,3 +29,23 @@ h6 {
   transform: translateY(0);
 }
 
+.reveal-left,
+.reveal-right {
+  opacity: 0;
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+.reveal-left {
+  transform: translateX(-56px);
+}
+
+.reveal-right {
+  transform: translateX(56px);
+}
+
+.reveal-left.is-visible,
+.reveal-right.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
