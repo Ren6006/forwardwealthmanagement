@@ -42,7 +42,7 @@ export default function ServicesPage() {
               <article
                 key={item.title}
                 data-service-reveal
-                className={`grid md:grid-cols-2 gap-8 md:gap-10 items-center bg-brandLight/50 p-6 md:p-8 ${
+                className={`grid md:grid-cols-2 gap-8 md:gap-10 items-center bg-brandLight/20 p-6 md:p-8 ${
                   index % 2 === 0 ? "reveal-right" : "reveal-left"
                 }`}
               >
@@ -62,6 +62,15 @@ export default function ServicesPage() {
               </article>
             );
           })}
+        </div>
+
+        <div className="mt-12 text-center">
+          <NavLink
+            to={services.ctaTo}
+            className="inline-flex border border-brandAccent bg-brandAccent px-7 py-3 uppercase tracking-wide text-sm text-brandDark transition-colors hover:bg-transparent hover:text-brandAccent"
+          >
+            {services.ctaLabel}
+          </NavLink>
         </div>
 
         <div className="mt-14 text-center bg-brandLight/30 py-12 px-6">
