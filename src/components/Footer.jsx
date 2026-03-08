@@ -9,8 +9,6 @@ export default function Footer() {
           <div className="mt-2 h-px w-16 bg-brandAccent" />
 
           <div className="mt-6 space-y-2 text-white/70">
-            <p>Office: (555) 201-9400</p>
-            <p>Fax: (555) 201-9405</p>
             <p>123 Legacy Avenue</p>
             <p>Scottsdale, AZ 85251</p>
             <a

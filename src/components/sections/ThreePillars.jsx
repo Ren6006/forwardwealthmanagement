@@ -20,7 +20,7 @@ export default function ThreePillars() {
             <button
               key={pillar.id}
               onClick={() => setActive(pillar.id)}
-              className={`w-full min-h-[76px] px-5 py-3 uppercase tracking-wide leading-snug text-sm border transition-colors flex items-center justify-center text-center ${
+              className={`w-full min-h-[48px] px-5 py-1.5 uppercase tracking-wide leading-snug text-sm border transition-colors flex items-center justify-center text-center ${
                 active === pillar.id
                   ? "bg-brandAccent text-brandDark border-brandAccent"
                   : "bg-transparent text-brandDark border-brandDark/20 hover:border-brandAccent"
@@ -32,7 +32,7 @@ export default function ThreePillars() {
         </div>
 
         <div className="hidden md:grid mt-10">
-          <article className="grid grid-cols-2 gap-8 items-stretch bg-brandLight/35 p-6 md:p-8">
+          <article className="grid grid-cols-2 gap-8 items-stretch bg-brandLight/55 p-6 md:p-8">
             <img
               src={activePillar.image}
               alt={activePillar.title}

@@ -44,12 +44,9 @@ export default function MeetOurTeam() {
               <p className="mt-1 text-brandDark/70 transition-colors group-hover:text-white/95">
                 {member.role}
               </p>
-              <p className="mt-4 text-sm text-brandDark/80 transition-colors group-hover:text-white/95">
-                {member.phone}
-              </p>
               <a
                 href={`mailto:${member.email}`}
-                className="mt-2 block text-sm text-brandDark/80 transition-colors group-hover:text-white/95"
+                className="mt-4 block text-sm text-brandDark/80 transition-colors group-hover:text-white/95"
               >
                 {member.email}
               </a>
