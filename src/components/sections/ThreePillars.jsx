@@ -15,12 +15,12 @@ export default function ThreePillars() {
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeading title={siteContent.threePillars.heading} />
 
-        <div className="hidden md:flex justify-center gap-4 mt-10">
+        <div className="hidden md:grid grid-cols-3 gap-4 mt-10">
           {siteContent.threePillars.pillars.map((pillar) => (
             <button
               key={pillar.id}
               onClick={() => setActive(pillar.id)}
-              className={`px-5 py-2 uppercase tracking-wide text-sm border transition-colors ${
+              className={`w-full min-h-[76px] px-5 py-3 uppercase tracking-wide leading-snug text-sm border transition-colors flex items-center justify-center text-center ${
                 active === pillar.id
                   ? "bg-brandAccent text-brandDark border-brandAccent"
                   : "bg-transparent text-brandDark border-brandDark/20 hover:border-brandAccent"
@@ -32,13 +32,13 @@ export default function ThreePillars() {
         </div>
 
         <div className="hidden md:grid mt-10">
-          <article className="grid grid-cols-2 gap-8 items-center bg-brandLight/35 p-6 md:p-8">
+          <article className="grid grid-cols-2 gap-8 items-stretch bg-brandLight/35 p-6 md:p-8">
             <img
               src={activePillar.image}
               alt={activePillar.title}
-              className="w-full h-[300px] object-cover"
+              className="w-full h-full min-h-[360px] object-cover"
             />
-            <div>
+            <div className="h-full flex flex-col justify-center">
               <h3 className="text-3xl text-brandDark">{activePillar.title}</h3>
               <p className="mt-3 italic font-bold font-serif text-lg text-brandDark/80">
                 {activePillar.subtitle}

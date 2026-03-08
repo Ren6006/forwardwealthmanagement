@@ -1,7 +1,7 @@
 import HeroRotator from "./HeroRotator";
 import ThreePillars from "./ThreePillars";
 import MeetOurTeam from "./MeetOurTeam";
-import RetirementRisks from "./RetirementRisks";
+import ProfessionalAffiliations from "./ProfessionalAffiliations";
 
 export default function HomePage() {
   return (
@@ -9,7 +9,7 @@ export default function HomePage() {
       <HeroRotator />
       <ThreePillars />
       <MeetOurTeam />
-      <RetirementRisks />
+      <ProfessionalAffiliations />
     </>
   );
 }

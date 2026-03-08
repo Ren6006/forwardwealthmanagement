@@ -12,8 +12,8 @@ export default function HeroRotator() {
       className="reveal relative min-h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: `url('${heroRotator.image}')` }}
     >
-      <div className="relative z-10 min-h-screen w-full px-4 md:px-8 lg:px-10 flex items-center justify-center md:justify-start">
-        <div className="max-w-2xl text-black text-center md:text-left md:ml-14 lg:ml-20 md:-mt-24">
+      <div className="relative z-10 min-h-screen max-w-6xl mx-auto px-6 flex items-center justify-center md:justify-start">
+        <div className="max-w-2xl text-black text-center md:text-left md:-mt-24">
           <h1 className="text-4xl md:text-6xl leading-tight font-semibold">
             <span className="block whitespace-nowrap">{heroRotator.headingLine1}</span>
             <span className="block whitespace-nowrap">{heroRotator.headingLine2}</span>

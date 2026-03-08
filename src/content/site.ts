@@ -65,23 +65,32 @@ By building financial capability alongside financial capital, families strengthe
     heading: "Meet Our Team",
     members: [
       {
-        name: "Hilal Yilmaz",
+        name: "Katerina Minevich, CFP®, CDFA®",
         role: "Wealth Manager",
-        credentials: "PhD, CFA",
-        phone: "(555) 201-9401",
-        email: "morgan@forwardwealth.com",
-        linkedin: "https://www.linkedin.com/",
-        image: "/images/hilal_profile.jpg",
-      },
-      {
-        name: "Katerina Minevich",
-        role: "Wealth Manager",
-        credentials: "CFP, CDFA",
         phone: "(555) 201-9402",
         email: "daniel@forwardwealth.com",
         linkedin: "https://www.linkedin.com/",
         image: "/images/katerina_profile.jpg",
       },
+      {
+        name: "Hilal Yilmaz, PhD, CFA",
+        role: "Wealth Manager",
+        phone: "(555) 201-9401",
+        email: "morgan@forwardwealth.com",
+        linkedin: "https://www.linkedin.com/",
+        image: "/images/hilal_profile.jpg",
+      },
+    ],
+  },
+  professionalAffiliations: {
+    heading: "Professional Affiliations",
+    logos: [
+      { name: "CFP", image: "/images/cfp_logo.png" },
+      { name: "CFA Institute", image: "/images/cfa_logo.jpg" },
+      { name: "CFA Society Los Angeles", image: "/images/cfa_la_logo.jpg" },
+      { name: "IDFA", image: "/images/idfa_logo.png" },
+      { name: "XYPN", image: "/images/xypn_logo.png" },
+      { name: "FPA", image: "/images/fpa_logo.jpg" },
     ],
   },
   risks: {
