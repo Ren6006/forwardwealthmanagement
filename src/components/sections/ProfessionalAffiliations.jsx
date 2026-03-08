@@ -21,7 +21,11 @@ export default function ProfessionalAffiliations() {
                 src={logo.image}
                 alt={logo.name}
                 className={`w-auto object-contain ${
-                  logo.name === "IDFA" ? "max-h-14 scale-[1.55]" : "max-h-11"
+                  logo.name === "IDFA"
+                    ? "max-h-14 scale-[1.55]"
+                    : logo.name === "CFA Institute"
+                      ? "max-h-12 scale-[3.2]"
+                      : "max-h-11"
                 }`}
               />
             </div>

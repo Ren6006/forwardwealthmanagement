@@ -3,7 +3,7 @@ export const siteContent = {
     image: "/images/herorotatorimage.png",
     headingLine1: "Experience the Difference of",
     headingLine2: "Proactive Wealth Management",
-    subheading: "Tax-Efficient. Integrated. Built for the Long Term.",
+    subheading: "Tax-Efficient. Integrated. Built for Generations.",
     paragraph:
       "We design sophisticated, tax-aware strategies that integrate your investments, real estate decisions, career income, and generational planning into one coordinated system. Rather than managing accounts in isolation, we align every financial decision to improve efficiency, reduce fragmentation, and support your long-term objectives.",
     ctaLabel: "Let's Get Started",
