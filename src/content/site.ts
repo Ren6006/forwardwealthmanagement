@@ -17,11 +17,11 @@ export const siteContent = {
         title: "Tax-Efficient Wealth Management",
         subtitle: "Designing Wealth as a Coordinated System",
         description:
-          `We manage wealth as an integrated life-span strategy, not a collection of accounts. Investment portfolios, real estate decisions, career income, tax exposure, and long-term family goals are evaluated together to improve alignment and reduce inefficiency.
+          `We manage wealth as an integrated life-span strategy rather than a collection of accounts. Investment portfolios, real estate, income, tax exposure, and family goals are evaluated together to improve alignment and reduce inefficiency.
 
-Our focus is tax-efficient portfolio construction implemented within the context of your broader financial life. We coordinate closely with your CPA and estate attorney so that investment decisions reinforce tax strategy, liquidity planning, and long-term wealth transfer objectives.
+Our focus is tax-efficient portfolio construction within the context of your broader financial life. We coordinate with your CPA and estate attorney so investment decisions support tax strategy, liquidity planning, and long-term wealth transfer.
 
-As your circumstances evolve, we adapt. Career changes, business growth, major purchases, and shifting family priorities are incorporated into portfolio design and capital allocation decisions. The objective is structured, coordinated decision-making across your entire financial life.`,
+As circumstances evolve, we adapt. Career changes, business growth, major purchases, and shifting family priorities are incorporated into portfolio design and capital allocation to keep decisions across your financial life coordinated and intentional.`,
         image: "/images/1stpillar.jpg",
       },
       {
@@ -111,46 +111,39 @@ By building financial capability alongside financial capital, families strengthe
     heading: "Who We Serve",
     sections: [
       {
-        title: "Multi-Generational Families Staying Connected",
-        lead: "Coordinated wealth strategies that honor your family's future:",
+        title: "Multi-Generational Families, Planning Across Generations",
+        lead: "Coordinated wealth strategies designed to support your family’s future",
         body:
-          "When wealth spans generations, every decision matters for your family's future. We help you preserve what you've built while empowering each generation to thrive. From coordinating with your estate and tax professionals to facilitating meaningful family conversations, we ensure your legacy reflects both your financial success and the values that matter most to your family.",
-        image: "/images/1stpillar.jpg",
+          "When wealth extends across generations, each decision influences both today’s outcomes and tomorrow’s opportunities. We help families preserve and structure what they’ve built while preparing the next generation to manage it responsibly. By coordinating closely with your estate and tax professionals and supporting thoughtful family dialogue, we align financial decisions with both long-term wealth preservation and the values you want your legacy to reflect.",
+          image: "/images/serve1.jpg",
       },
       {
         title: "High-Income Professionals Navigating Complexity",
-        lead: "Comprehensive planning for your complex financial life:",
+        lead: "Integrated planning for a complex financial life",
         body:
-          "Your financial success creates valuable opportunities, from equity compensation and tax strategy to retirement timing and legacy planning. We provide a coordinated, white-glove approach so short-term decisions support long-term outcomes.",
-        image: "/images/2ndpillar.jpg",
+          "As your income and opportunities grow, so does the complexity of your financial decisions, from equity compensation and tax exposure to portfolio construction and long-term planning. We help bring structure and coordination to these moving parts, aligning investment strategy with tax planning, career decisions, and long-term goals so that each choice supports a cohesive and durable financial strategy.",
+        image: "/images/serve2.jpg",
       },
       {
-        title: "Business Owners Building Legacy",
-        lead: "From business success to generational impact:",
+        title: "Medical Professionals Managing Wealth Strategically",
+        lead: "Planning for the financial complexity of medical careers",
         body:
-          "Entrepreneurs and business leaders who have built something meaningful deserve wealth strategies that honor that achievement. Whether you are preparing to sell your business or planning for succession, we help you transition from builder to steward.",
-        image: "/images/3rdpillar.jpg",
+          "Medical careers often come with a unique financial structure that evolves over time, including student loan obligations, complex compensation models, partnership opportunities, and growing tax exposure. As income rises, financial decisions become more interconnected across investing, tax planning, and long-term goals. We help bring clarity and structure to these decisions, guiding physicians in converting strong earnings into sustainable, tax-aware wealth while building a financial foundation that supports practice ownership decisions, lifestyle priorities, and long-term wealth preservation.",
+        image: "/images/serve3.jpg",
       },
       {
         title: "Individuals and Families in Major Life Transitions",
-        lead: "Steady guidance through life's biggest moments:",
+        lead: "Clear financial structure during pivotal life changes",
         body:
-          "Divorce, inheritance, career changes, and loss of a spouse require clear financial structure. We provide calm guidance and expert coordination so you can make confident decisions and move forward with strength.",
-        image: "/images/herorotatorimage.png",
+          "Periods of transition such as divorce, inheritance, career changes, or the loss of a spouse often bring both emotional and financial complexity. Important decisions may need to be made while long-term implications are still unfolding. We provide thoughtful guidance and structured planning during these moments, using analytical scenario modeling to evaluate options, coordinate with legal and tax professionals, and help you move forward with clarity and confidence. ",
+        image: "/images/serve4.jpg",
       },
       {
-        title: "Women Designing Their Financial Future",
-        lead: "Wealth strategies that work with your life:",
+        title: "Business Owners Building Lasting Wealth",
+        lead: "Turning business success into lasting financial impact",
         body:
-          "From career pivots to caring for multiple generations, there is no one-size-fits-all plan. We help align your wealth strategy with the life you are living and the future you want to create.",
-        image: "/images/1stpillar.jpg",
-      },
-      {
-        title: "Medical Professionals Using Wealth Effectively",
-        lead: "Understanding your financial complexity with strategic planning:",
-        body:
-          "Medical professionals face unique challenges, including debt management, practice compensation structures, and long-term tax planning. We help convert high earnings into durable, tax-aware wealth.",
-        image: "/images/2ndpillar.jpg",
+          "Entrepreneurs and business leaders who have built successful companies often face complex decisions as personal wealth becomes closely tied to their businesses. Questions around liquidity, succession, and long-term investment structure require careful planning. We help business owners transition from concentrated business wealth to diversified, well-structured portfolios while coordinating with tax and estate professionals so the value you created supports both your future and the legacy you intend to leave.",
+        image: "/images/serve5.jpg",
       },
     ],
     ctaLabel: "Schedule a Conversation",
