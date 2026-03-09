@@ -8,7 +8,7 @@ export default function HeroRotator() {
   return (
     <section
       ref={sectionRef}
-      className="reveal relative min-h-screen w-full bg-cover bg-center"
+      className="reveal relative min-h-screen w-full bg-cover bg-center bg-fixed"
       style={{ backgroundImage: `url('${heroRotator.image}')` }}
     >
       <div className="relative z-10 min-h-screen max-w-6xl mx-auto px-6 flex items-center justify-center md:justify-start">

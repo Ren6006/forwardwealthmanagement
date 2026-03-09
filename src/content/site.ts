@@ -137,10 +137,10 @@ By building financial capability alongside financial capital, families strengthe
         image: "/images/serve3.jpg",
       },
       {
-        title: "Individuals and Families in Major Life Transitions",
+        title: "Divorce and Family Transitions",
         lead: "Clear financial structure during pivotal life changes",
         body:
-          "Periods of transition such as divorce, inheritance, career changes, or the loss of a spouse often bring both emotional and financial complexity. Important decisions may need to be made while long-term implications are still unfolding. We provide thoughtful guidance and structured planning during these moments, using analytical scenario modeling to evaluate options, coordinate with legal and tax professionals, and help you move forward with clarity and confidence. ",
+          "Periods of transition such as divorce, the loss of a spouse, or significant changes in family financial structure often bring both emotional and financial complexity. Important decisions about asset division, support structures, housing, and long-term financial sustainability may need to be made while circumstances are still evolving. As a Certified Divorce Financial Analyst® (CDFA®), we provide thoughtful financial analysis during these moments, working alongside family law attorneys and collaborative divorce professionals to evaluate settlement options and long-term outcomes. We also advise individuals and couples on prenuptial and postnuptial financial planning, helping bring clarity and structure to important financial decisions during times of change.",
         image: "/images/serve4.jpg",
       },
       {
