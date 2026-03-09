@@ -12,10 +12,10 @@ export default function Footer() {
             <p>123 Legacy Avenue</p>
             <p>Scottsdale, AZ 85251</p>
             <a
-              href="mailto:info@forwardwealth.com"
+              href="mailto:hilal@fwdwlth.com"
               className="inline-block text-white hover:text-brandAccent transition-colors"
             >
-              info@forwardwealth.com
+              hilal@fwdwlth.com
             </a>
           </div>
 

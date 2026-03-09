@@ -6,7 +6,7 @@ export default {
       colors: {
         brandDark: '#5F584A',
         brandLight: '#F7F6F3',
-        brandAccent: '#CEA51D',
+        brandAccent: '#A9C0C8',
       },
       fontFamily: {
         heading: ['"Cormorant Garamond"', 'serif'],

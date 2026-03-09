@@ -86,17 +86,6 @@ By building financial capability alongside financial capital, families strengthe
     heading: "About Us",
     bios: [
       {
-        id: "katerina",
-        name: "Katerina Minevich, CFP®, CDFA®",
-        image: "/images/katerina_profile.jpg",
-        paragraphs: [
-          "Katerina Minevich, CFP®, CDFA®, is a CERTIFIED FINANCIAL PLANNER™ professional and Certified Divorce Financial Analyst® with experience spanning financial planning, senior financial leadership, and regulatory environments. She co-founded Forward Wealth Management with Hilal Yilmaz, where she leads client-facing financial planning strategy, specializing in complex financial decisions, business ownership, and major life transitions.",
-          "Prior to founding the firm, Katerina served as a senior financial leader at a high-growth startup, acting as a strategic partner to founders and executives from early-stage development through acquisition. She led company-wide financial strategy, including budgeting, forecasting, cash-flow management, and built scalable financial infrastructure to support three funding rounds and a $425 million acquisition. She played a key role in capital formation, financial modeling, and exit strategy execution, supporting due diligence and post-close integration efforts. She also advised employees on equity compensation, benefits planning, and liquidity-related decision-making.",
-          "Earlier in her career, Katerina worked at the U.S. Securities and Exchange Commission, where she participated in the examination and audit of registered investment advisers, hedge funds, and mutual funds, strengthening her expertise in financial oversight, compliance, and governance. This institutional experience informs her advisory work today, particularly in supporting business owners and executives navigating succession planning, liquidity events, and personal wealth decisions connected to their companies, as well as individuals facing divorce and other significant transitions.",
-          "She earned her Bachelor's degree in Economics from New York University and maintains the CFP® and CDFA® designations. Katerina serves on the Board of Directors of the Financial Planning Association of Los Angeles as Director of Corporate Sponsorships. She recently became an empty nester after dropping off her youngest at her alma mater this fall, a milestone that deepens her appreciation for long-term planning and generational wealth conversations.",
-        ],
-      },
-      {
         id: "hilal",
         name: "Hilal Yilmaz, PhD, CFA",
         image: "/images/hilal_profile.jpg",
@@ -107,6 +96,17 @@ By building financial capability alongside financial capital, families strengthe
           "Earlier in her career, Hilal was a tenured Associate Professor of Economics at St. Edward's University and a Lecturer at the University of Texas at Austin. Her academic research focused on portfolio optimization and advanced risk measurement, equipping her with a deep understanding of diversification, asset classes, and risk layering, expertise she now applies in practical portfolio construction for her clients.",
           "Hilal is particularly committed to multi-generational wealth education. Drawing on over a decade of advising college students, she actively engages clients' children in structured financial education and early portfolio responsibility, helping families build financial capability alongside financial capital.",
           "She earned her PhD in Economics from the University of Illinois at Urbana-Champaign, holds a Master's degree in Finance, and received her Bachelor of Science in Mathematics from Bilkent University. Hilal holds the CFA® charter and serves as Co-Chair of the Financial Literacy Committee at CFA Society Los Angeles and as a member of its Wealth Management Advisory Council.",
+        ],
+      },
+      {
+        id: "katerina",
+        name: "Katerina Minevich, CFP®, CDFA®",
+        image: "/images/katerina_profile.jpg",
+        paragraphs: [
+          "Katerina Minevich, CFP®, CDFA®, is a CERTIFIED FINANCIAL PLANNER™ professional and Certified Divorce Financial Analyst® with experience spanning financial planning, senior financial leadership, and regulatory environments. She co-founded Forward Wealth Management with Hilal Yilmaz, where she leads client-facing financial planning strategy, specializing in complex financial decisions, business ownership, and major life transitions.",
+          "Prior to founding the firm, Katerina served as a senior financial leader at a high-growth startup, acting as a strategic partner to founders and executives from early-stage development through acquisition. She led company-wide financial strategy, including budgeting, forecasting, cash-flow management, and built scalable financial infrastructure to support three funding rounds and a $425 million acquisition. She played a key role in capital formation, financial modeling, and exit strategy execution, supporting due diligence and post-close integration efforts. She also advised employees on equity compensation, benefits planning, and liquidity-related decision-making.",
+          "Earlier in her career, Katerina worked at the U.S. Securities and Exchange Commission, where she participated in the examination and audit of registered investment advisers, hedge funds, and mutual funds, strengthening her expertise in financial oversight, compliance, and governance. This institutional experience informs her advisory work today, particularly in supporting business owners and executives navigating succession planning, liquidity events, and personal wealth decisions connected to their companies, as well as individuals facing divorce and other significant transitions.",
+          "She earned her Bachelor's degree in Economics from New York University and maintains the CFP® and CDFA® designations. Katerina serves on the Board of Directors of the Financial Planning Association of Los Angeles as Director of Corporate Sponsorships. She recently became an empty nester after dropping off her youngest at her alma mater this fall, a milestone that deepens her appreciation for long-term planning and generational wealth conversations.",
         ],
       },
     ],
@@ -149,8 +149,15 @@ By building financial capability alongside financial capital, families strengthe
           "Entrepreneurs and business leaders who have built successful companies often face complex decisions as personal wealth becomes closely tied to their businesses. Questions around liquidity, succession, and long-term investment structure require careful planning. We help business owners transition from concentrated business wealth to diversified, well-structured portfolios while coordinating with tax and estate professionals so the value you created supports both your future and the legacy you intend to leave.",
         image: "/images/serve5.jpg",
       },
+      {
+        title: "Women Designing Their Financial Future",
+        lead: "Thoughtful wealth strategies for the life you are building",
+        body:
+          "Women often navigate unique financial paths, including career changes, leadership roles, entrepreneurship, and caring for multiple generations. We work with women to structure their wealth thoughtfully, aligning investment strategy, tax planning, and long-term goals with the life they want to build. Through coordinated planning and analytical decision-making, we help clients turn financial success into lasting stability, independence, and opportunity.",
+        image: "/images/serve6.jpg",
+      },
     ],
-    closingTitle: "Bring calm, order, and control to complex financial lives.",
+    closingTitle: "Bring clarity, coordination, and long-term structure to your financial lives.",
     closingCtaLabel: "Start Planning",
     closingCtaTo: "/contact",
   },

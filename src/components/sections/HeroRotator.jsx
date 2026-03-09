@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { siteContent } from "../../content/site.ts";
 import useScrollReveal from "./useScrollReveal";
 
@@ -25,12 +24,6 @@ export default function HeroRotator() {
 
           <p className="mt-5 text-base md:text-lg text-black/85 font-medium">{heroRotator.paragraph}</p>
 
-          <NavLink
-            to={heroRotator.ctaTo}
-            className="inline-flex mt-8 border border-brandAccent bg-brandAccent px-7 py-3 uppercase tracking-wide text-sm text-brandDark transition-colors hover:bg-transparent hover:text-brandAccent"
-          >
-            {heroRotator.ctaLabel}
-          </NavLink>
         </div>
       </div>
     </section>

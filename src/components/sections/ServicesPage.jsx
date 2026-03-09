@@ -42,7 +42,7 @@ export default function ServicesPage() {
               <article
                 key={item.title}
                 data-service-reveal
-                className={`grid md:grid-cols-2 gap-8 md:gap-10 items-center bg-brandLight/20 p-6 md:p-8 ${
+                className={`grid md:grid-cols-2 gap-8 md:gap-10 items-center bg-brandLight/70 p-6 md:p-8 ${
                   index % 2 === 0 ? "reveal-right" : "reveal-left"
                 }`}
               >
