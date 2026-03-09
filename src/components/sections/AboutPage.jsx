@@ -1,10 +1,8 @@
 import { siteContent } from "../../content/site.ts";
-import useScrollReveal from "./useScrollReveal";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 export default function AboutPage() {
-  const sectionRef = useScrollReveal();
   const { hash } = useLocation();
 
   useEffect(() => {
@@ -19,7 +17,7 @@ export default function AboutPage() {
   }, [hash]);
 
   return (
-    <section ref={sectionRef} className="reveal py-16 md:py-20 bg-white">
+    <section className="py-16 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl text-brandDark text-center">{siteContent.about.heading}</h1>
         <div className="mt-4 h-[2px] w-20 mx-auto bg-[#A9C0C8]" />
@@ -29,7 +27,7 @@ export default function AboutPage() {
             <article
               id={bio.id}
               key={bio.name}
-              className="grid lg:grid-cols-[320px_1fr] gap-8 md:gap-10 items-start scroll-mt-44"
+              className="grid lg:grid-cols-[320px_1fr] gap-8 md:gap-10 items-start scroll-mt-44 bg-[#F9F9F9] p-6 md:p-8"
             >
               <img
                 src={bio.image}
@@ -41,7 +39,7 @@ export default function AboutPage() {
 
               <div>
                 <h2 className="text-3xl text-brandDark">{bio.name}</h2>
-                <div className="mt-5 space-y-4 text-brandDark/85 leading-relaxed">
+                <div className="mt-5 space-y-4 text-brandDark/90 leading-relaxed">
                   {bio.paragraphs.map((paragraph) => (
                     <p key={paragraph}>{paragraph}</p>
                   ))}
