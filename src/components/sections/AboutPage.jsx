@@ -22,6 +22,15 @@ export default function AboutPage() {
         <h1 className="text-4xl md:text-5xl text-brandDark text-center">{siteContent.about.heading}</h1>
         <div className="mt-4 h-[2px] w-20 mx-auto bg-[#A9C0C8]" />
 
+        <p className="mt-8 text-center text-brandDark font-heading text-2xl md:text-3xl font-semibold italic">
+          Two Disciplines. One Coordinated Strategy.
+        </p>
+        <p className="mt-4 text-center text-brandDark/85 max-w-3xl mx-auto leading-relaxed">
+          At Forward Wealth Management, investment strategy and financial planning are designed together.
+          Our partnership combines deep expertise in portfolio architecture and financial decision
+          strategy so clients can navigate complexity with clarity.
+        </p>
+
         <div className="mt-12 space-y-14">
           {siteContent.about.bios.map((bio) => (
             <article
