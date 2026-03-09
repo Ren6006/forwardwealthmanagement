@@ -27,8 +27,7 @@ export default function MeetOurTeam() {
           {siteContent.team.members.map((member) => (
             <article
               key={member.email}
-              className="group w-full mx-auto border border-brandDark/10 p-6 transition-colors hover:bg-[#A9C0C8] cursor-pointer"
-              style={{ maxWidth: `${TEAM_CARD_SCALE * 100}%` }}
+              className="group w-full mx-auto border border-brandDark/10 p-6 transition-colors hover:bg-[#A9C0C8] cursor-pointer max-w-full sm:max-w-[80%]"
               onClick={() => navigate(`/about#${member.id}`)}
               onKeyDown={(event) => {
                 if (event.key === "Enter" || event.key === " ") {
