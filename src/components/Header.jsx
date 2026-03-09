@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logoImage from "../assets/Attached_image.png";
 
@@ -9,9 +9,35 @@ const cls = ({ isActive }) => `${base} ${isActive ? "border-[#A9C0C8]" : ""}`;
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const currentY = window.scrollY;
+      const previousY = lastScrollY.current;
+
+      if (currentY <= 0) {
+        setIsVisible(true);
+      } else if (currentY > previousY + 2) {
+        setIsVisible(false);
+      } else if (currentY < previousY - 2) {
+        setIsVisible(true);
+      }
+
+      lastScrollY.current = currentY;
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-[#FEFEFE] backdrop-blur border-b border-brandDark/10">
+    <header
+      className={`sticky top-0 z-50 w-full bg-[#FEFEFE] backdrop-blur border-b border-brandDark/10 transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="max-w-6xl mx-auto px-6">
         <div className="h-24 md:h-[135px] flex items-center justify-between">
           <NavLink to="/" className="inline-flex items-center">

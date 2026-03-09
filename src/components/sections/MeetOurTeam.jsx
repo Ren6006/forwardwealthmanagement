@@ -3,6 +3,9 @@ import SectionHeading from "./SectionHeading";
 import useScrollReveal from "./useScrollReveal";
 import { useNavigate } from "react-router-dom";
 
+// Adjust this value to scale team card size.
+const TEAM_CARD_SCALE = 0.8;
+
 function LinkedInIcon() {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" className="w-5 h-5 fill-current">
@@ -24,7 +27,8 @@ export default function MeetOurTeam() {
           {siteContent.team.members.map((member) => (
             <article
               key={member.email}
-              className="group border border-brandDark/10 p-6 transition-colors hover:bg-[#A9C0C8] cursor-pointer"
+              className="group w-full mx-auto border border-brandDark/10 p-6 transition-colors hover:bg-[#A9C0C8] cursor-pointer"
+              style={{ maxWidth: `${TEAM_CARD_SCALE * 100}%` }}
               onClick={() => navigate(`/about#${member.id}`)}
               onKeyDown={(event) => {
                 if (event.key === "Enter" || event.key === " ") {

@@ -32,15 +32,15 @@ h6 {
 .reveal-left,
 .reveal-right {
   opacity: 0;
-  transition: opacity 700ms ease, transform 700ms ease;
+  transition: opacity 2800ms ease, transform 2800ms ease;
 }
 
 .reveal-left {
-  transform: translateX(-56px);
+  transform: translateX(-280px);
 }
 
 .reveal-right {
-  transform: translateX(56px);
+  transform: translateX(280px);
 }
 
 .reveal-left.is-visible,
