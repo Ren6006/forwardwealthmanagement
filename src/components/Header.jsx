@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
-import logoImage from "../assets/Attached_image.png";
 
 const base =
   "uppercase tracking-widest text-sm text-brandDark border-b-2 border-transparent hover:border-[#A9C0C8] transition-colors";
@@ -34,14 +33,14 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full bg-[#FEFEFE] backdrop-blur border-b border-brandDark/10 transition-transform duration-300 ${
+      className={`sticky top-0 z-50 w-full bg-[#F9F9F9] backdrop-blur border-b border-brandDark/10 transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6">
         <div className="h-24 md:h-[135px] flex items-center justify-between">
-          <NavLink to="/" className="inline-flex items-center">
-            <img src={logoImage} alt="Forward Wealth Management" className="h-[60px] md:h-[84px] w-auto" />
+          <NavLink to="/" className="inline-flex items-center -ml-6 md:-ml-8">
+            <img src="/images/fwm_logo.png" alt="Forward Wealth Management" className="h-[60px] md:h-[84px] w-auto object-contain" />
           </NavLink>
 
           <nav className="hidden md:flex items-center gap-6">
