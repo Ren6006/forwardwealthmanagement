@@ -34,7 +34,9 @@ export default function AboutPage() {
               <img
                 src={bio.image}
                 alt={bio.name}
-                className="w-full max-w-[320px] aspect-[4/5] object-cover mx-auto lg:mx-0"
+                className={`w-full max-w-[320px] aspect-[4/5] mx-auto lg:mx-0 ${
+                  bio.id === "katerina" ? "object-contain" : "object-cover"
+                }`}
               />
 
               <div>
