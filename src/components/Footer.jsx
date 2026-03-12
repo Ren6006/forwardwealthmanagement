@@ -1,7 +1,20 @@
+import { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const [aboutOpen, setAboutOpen] = useState(false);
+  const aboutRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (aboutRef.current && !aboutRef.current.contains(e.target)) {
+        setAboutOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <footer className="w-full bg-[#A9C0C8] text-black pt-12 pb-20">
@@ -17,13 +30,41 @@ export default function Footer() {
             </a>
           </div>
 
-          <nav className="flex flex-wrap gap-6 md:gap-10 text-base md:text-lg font-semibold md:justify-center flex-1 md:px-4">
+          <nav className="flex flex-wrap gap-6 md:gap-10 text-base md:text-lg font-semibold md:justify-center flex-1 md:px-4 items-center">
             <NavLink to="/" className="hover:text-brandDark hover:underline hover:underline-offset-4">
               Home
             </NavLink>
-            <NavLink to="/about" className="hover:text-brandDark hover:underline hover:underline-offset-4">
-              About
-            </NavLink>
+            <div className="relative" ref={aboutRef}>
+              <button
+                type="button"
+                className="text-black hover:text-brandDark hover:underline hover:underline-offset-4 bg-transparent border-none font-inherit font-semibold cursor-pointer p-0"
+                onClick={() => setAboutOpen((v) => !v)}
+                aria-expanded={aboutOpen}
+                aria-haspopup="true"
+              >
+                About
+              </button>
+              {aboutOpen && (
+                <div className="absolute bottom-full left-0 mb-1 min-w-0 z-10 whitespace-nowrap">
+                  <div className="bg-[#A9C0C8] border border-black/20 shadow-md py-1 rounded">
+                    <NavLink
+                      to="/about"
+                      className="block px-4 py-2 text-sm font-semibold text-black hover:text-brandDark hover:bg-black/10 rounded-t whitespace-nowrap"
+                      onClick={() => setAboutOpen(false)}
+                    >
+                      About Us
+                    </NavLink>
+                    <NavLink
+                      to="/about/our-approach"
+                      className="block px-4 py-2 text-sm font-semibold text-black hover:text-brandDark hover:bg-black/10 rounded-b whitespace-nowrap"
+                      onClick={() => setAboutOpen(false)}
+                    >
+                      Our Approach
+                    </NavLink>
+                  </div>
+                </div>
+              )}
+            </div>
             <NavLink to="/services" className="hover:text-brandDark hover:underline hover:underline-offset-4">
               Who We Serve
             </NavLink>
